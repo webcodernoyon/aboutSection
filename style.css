@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'Inter', sans-serif;
+}
+body{
+	background:#fff;
+}
+.aboutContainer{
+	height:550px;
+	display:flex;
+	align-items:center;
+	width:100%;
+	background:rgb(182 178 255 / 22%);
+	
+	padding:50px 100px;
+}
+.aboutContainer .col{
+	width:50%;
+	
+	
+}
+.aboutContainer .col img{
+	width:410px;
+}
+.aboutContainer .col h1{
+	margin:10px 0;
+	font-size:40px;
+}
+.aboutContainer .col .btn{
+	display:inline-block;
+	padding:10px 20px;
+	background:#00A65C;
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+	margin-top:20px;
+	border-radius:6px;
+}
